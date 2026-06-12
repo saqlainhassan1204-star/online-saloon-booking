@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Booking</title>
+
+</head>
+<body>
+           <div class="container-book">
+
+                <div class="bg-color">
+
+            <h2>💇‍♂️Saloon Booking</h2>
+
+         <form action="booking.php" method="post">
+
+    <label class="label">NAME :</label>
+    <input type="text" name="name" placeholder="Enter your name" class="input-form">
+
+    <label class="label">Phone Number :</label>
+    <input type="number" name="phone" placeholder="Enter Your phone number" class="input-form">
+
+    <label class="label">Email :</label>
+    <input type="email" name="email" placeholder="Enter Your Email" class="input-form">
+
+    <label class="label">Select Your Service :</label>
+    <select name="service" class="label">
+        <option value="hair">Haircut</option>
+        <option value="facial">Facial</option>
+        <option value="beard">Beard</option>
+    </select>
+
+    <br>
+
+    <label class="label">Your Preferred Date :</label>
+    <input type="date" name="date" class="input-form">
+
+    <label class="label">Time :</label>
+    <input type="time" name="time" class="input-form">
+
+    <textarea name="special_request" rows="5"
+        placeholder="Any special request..." class="label"></textarea>
+
+    <br><br>
+
+    <button type="submit">Book Now</button>
+
+</form>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

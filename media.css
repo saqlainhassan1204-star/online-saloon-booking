@@ -1,0 +1,84 @@
+@media screen and (max-width:940px) {
+    
+    .right   ul{
+        display: none;
+        position: absolute;
+        
+    }
+    .right{
+        position: relative;
+    }
+    .nav-manu{
+        display: inline-block;
+        position: absolute;
+        
+        right: 20px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .right-section{
+
+        width: 46%;
+            
+
+    }
+    
+    .middle-section{
+        width: 46%;
+    }
+    .left-section{
+        width: 60%;
+    }
+    .side-card{
+        flex-direction: column-reverse;
+
+    }
+    .right h2{
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .right p{
+        text-align: center;
+    }
+    
+.side-card{
+    margin-top: 10px;
+    
+
+}
+.second-side-card{
+    flex-direction: column;
+}
+.second-side-card h2{
+text-align: center;}
+
+#para{
+    margin-block: 20px;
+}
+}
+
+@media screen and (max-width:640px) {
+    .banner-img{
+        width: 100%;
+    }
+    .banner-para h3{
+      top: 220px;
+    
+    }
+     .right-section{
+
+        width: 100%;
+            
+
+    }
+    
+    .middle-section{
+        width:100%;
+    }
+    .left-section{
+        width: 100%;
+    }
+    
+}

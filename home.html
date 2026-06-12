@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS barber shop</title>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/370f340acd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- nav-bar -->
+
+    <div class="container flex nav-bar" id="nav">
+        <div class="left-nav">
+            <img src="download.png" height="50px" width="100px" alt="">
+
+        </div>
+        <div class="right" >
+            <ul class="flex nav " id="RightNav">
+              <a href="#home">   <li class="nav-links" onclick="Home()">Home</li></a>
+              <a href="#About">  <li class="nav-links" onclick="About()">About</li></a>
+               <a href="#Service"><li class="nav-links"  onclick="Services()">Services</li></a>
+               <a href="contact.html"> <li class="nav-links" >Contact</li></a>
+              <a href="booking.php">   <li class="nav-links booking" >Book Now</li></a>
+              <img src="https://static.vecteezy.com/system/resources/previews/013/442/202/original/light-bulbs-illustration-creative-idea-png.png" alt="" style="width: 44px;" id="LightBulb">
+         
+            </ul>
+             <i class="fa-solid fa-bars nav-manu"></i>
+            
+        </div>
+    </div>
+
+
+<!-- Banner -->
+
+   <div class="banner-img">
+     <a href="" class="banner-para">
+                     <h1 id="mainheading"  class="typing">  Wellcome to Ms Barbarshop</h1>
+
+       
+     </a>
+
+             <img src="favicon.png" alt="favicon" id="logo" height="150px" width="100px">
+
+ <h5 id="description" style="color: white; padding-top: 30px;   padding-left: 300px; padding-right: 400px; font-size: 1.2rem; font-weight: 700;">Barbarshop specializing in haircuts,fodes,classic shaves,and beared design for men.Our team of professional barbers guarantness impossible results,tailored to
+        your style.personality,and Modern </h5>
+
+   </div>
+
+   <!-- flex-cards -->
+    <div class="flex-cards">
+   <h2 style="padding-left: 100px;">Recomended for you</h2>
+     <!-- <div class="container flex flex-card">
+        <div class="hair-cut">
+      <img class="flex-img" src="haircut-2.png" alt="">
+      <p>Haircut</p>
+       <a href="" class="nav-links booking">Available barbers→</a>
+
+
+     </div>
+       <div class="hair-cut">
+      <img class="" alt="">
+      <p>Facial (Skin care)</p>
+       <a href="" class="nav-links booking">Learn more→</a>
+
+
+     </div>
+       <div class="hair-cut">
+      <img  class="flex-img beard" src="https://www.themanual.com/wp-content/uploads/sites/9/2016/09/Stock-Beard-Trimming.jpg?p=1" alt="">
+      <p>Beard  </p>
+       <a href="" class="nav-links booking">See more→</a>
+
+
+     </div>
+     
+    
+   
+     </div> -->
+
+         <div class="services-section">
+     <div class="flex flex-services">
+        <div class="right-section services">
+            <img src="haircut-2.png" alt="">
+            <div class="detail-services">
+            <h4>Haircut</h4>
+            <p>Proffesional haircut</p>
+            <a href="">   <li class="nav-links booking" onclick="Service()">See more <i class="ri-arrow-right-long-line"></i></li></a>
+            </div>
+        </div>
+        <div class="middle-section services">
+             <img src="https://blog.californiaskincaresupply.com/wp-content/uploads/2022/04/man-beard-get-facial-1024x684.jpg" alt="">
+         <div class="detail-services">
+             <h4>Facial(Skin care)</h4>
+            <p>Smooth and clear skin</p>
+            <a href="">   <li class="nav-links booking " onclick="Service()">See more <i class="ri-arrow-right-long-line"></i></li></a>
+            </div>
+    </div>
+           
+     <div class="left-section services">
+             <img src="https://www.themanual.com/wp-content/uploads/sites/9/2016/09/Stock-Beard-Trimming.jpg?p=1" alt="">
+         <div class="detail-services">
+             <h4>Beard</h4>
+            <p>Clean Beard look</p>
+            <a href="">   <li class="nav-links booking " onclick="Service()">See more <i class="ri-arrow-right-long-line"></i></li></a>
+            </div>
+    </div>
+
+
+
+     </div>  </div>  </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- side-cards-flex -->
+     <div class="container flex side-card">
+            <div class="right">
+                <h2 style="color: gray;"> Appointment done better</h2>
+               <p id="para" style="color: gray;"">Looking for your next appointment with a local barber,hair stylist,physiotherapist or nail artist?Need appointment booking for a beard trim, an eyebrow wax,or a deep tissue massage?</p>
+
+            </div>
+            <div class="left">
+                <img src="side-card-1.png" alt="">
+            </div>
+   
+
+     </div>
+
+
+ <div class="container flex side-card second-side-card">
+           
+            <div class="right">
+                <img src="side-card-2.png" alt="">
+            </div>
+             <div class="left">
+                <h2 style="color: gray;"> Book with the best</h2>
+               <p id="para" style="color: gray;">Save time and leave the stress to someone else.Setting us to your next appointment is free and easy.</p>
+
+            </div>
+   
+
+     </div>
+
+
+
+
+     
+       <!-- fotter -->
+     <footer>
+            <div class="sub-footer flex">
+                <ul >
+                     <a href="about.html" target="_blank">  <li class="nav-links ftr">About</li></a>
+               <a href="services.html"><li class="nav-links ftr ">Services</li></a>
+               <a href=""> <li class="nav-links ftr">Contact</li></a>
+                </ul></div>
+                <hr>
+                <div class="left-nav  footer  ftr-img">
+         <img  src="nav-bar.png" width="50px" height="50px" alt="">
+         <p class="ftr-txt">© 2026 Booksy Inc. All rights reserved</p>
+         
+            </div>
+         </footer>
+         <script src="script.js"></script>
+</body>
+</html>
